@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy policy — Mailnest</title>
+    <link rel="icon" href="icon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrap bar">
+        <img src="icon.png" alt="" />
+        <a class="name" href="./">Mailnest</a>
+        <nav>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <article class="doc">
+        <h1>Privacy policy</h1>
+        <p class="meta">Effective date: 12 October 2026</p>
+
+        <p>
+          Mailnest is a desktop email application for Windows. This policy explains what information Mailnest accesses, how it
+          is used and stored, and the choices you have. The short version: <strong>your email stays between your computer and
+          your email provider.</strong> Mailnest has no servers of its own, and we never receive, see or store your email or your
+          account data.
+        </p>
+
+        <h2>Information Mailnest accesses</h2>
+        <p>When you add an email account, Mailnest accesses only what it needs to work as your email client:</p>
+        <ul>
+          <li><strong>Your email address and name</strong>, to show which account is which and to put your name on mail you send.</li>
+          <li>
+            <strong>Your email messages and folders</strong>: message contents, attachments, senders, recipients, subjects, dates
+            and read/starred status. This is so Mailnest can show, search, send, reply to, organise and delete your mail when you
+            ask it to.
+          </li>
+          <li>
+            <strong>Sign-in credentials.</strong> If you connect with Google or Microsoft, Mailnest receives an access token and a
+            refresh token from them. You type your password only on Google's or Microsoft's own sign-in page, and Mailnest never
+            sees it. If you connect another provider over IMAP, you enter that account's password or app password into Mailnest.
+          </li>
+        </ul>
+
+        <h2>Google user data</h2>
+        <p>When you choose <em>Continue with Google</em>, Mailnest requests these permissions:</p>
+        <ul>
+          <li>
+            <code>https://mail.google.com/</code> lets Mailnest read, send, organise and delete Gmail messages over IMAP and SMTP,
+            the standard email protocols it uses. Gmail only allows IMAP and SMTP access with this permission.
+          </li>
+          <li><code>openid</code>, <code>email</code> and <code>profile</code> tell Mailnest which Google account you signed in with and your name.</li>
+        </ul>
+        <p>Mailnest uses Google user data only to provide the email features you use in the app:</p>
+        <ul>
+          <li>displaying your mail;</li>
+          <li>sending messages you write;</li>
+          <li>searching your mail;</li>
+          <li>notifying you of new messages;</li>
+          <li>carrying out the actions you choose, such as archive, delete, star, mark as read or move.</li>
+        </ul>
+        <p>Google user data is <strong>not</strong>:</p>
+        <ul>
+          <li>sent to any server operated by Mailnest;</li>
+          <li>sold;</li>
+          <li>used for advertising;</li>
+          <li>used to train artificial intelligence or machine learning models;</li>
+          <li>shared with or transferred to any third party.</li>
+        </ul>
+        <p>No person reads your data, because it never leaves your computer except to go back to Google.</p>
+        <p class="callout">
+          Mailnest's use and transfer to any other app of information received from Google APIs will adhere to the
+          <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+          including the Limited Use requirements.
+        </p>
+
+        <h2>Where your information is stored</h2>
+        <p>
+          Everything is stored only on your own computer, in Mailnest's data folder (<code>%APPDATA%\Mailnest</code>). That
+          includes:
+        </p>
+        <ul>
+          <li>account settings;</li>
+          <li>a local cache of message lists;</li>
+          <li>copies of the messages you have opened, so they load quickly and can be read offline;</li>
+          <li>your preferences.</li>
+        </ul>
+        <p>
+          Passwords and sign-in tokens are encrypted with Windows' built-in data protection, which ties them to your Windows user
+          account. Mailnest talks to your email provider (for example Google's <code>imap.gmail.com</code> and
+          <code>smtp.gmail.com</code>) over encrypted connections. It sends no information anywhere else.
+        </p>
+
+        <h2>Information Mailnest does not collect</h2>
+        <ul>
+          <li>No analytics, telemetry or usage tracking.</li>
+          <li>No advertising identifiers.</li>
+          <li>No crash reports sent anywhere.</li>
+          <li>No account on our side: you don't sign up with us, and we hold no user database.</li>
+        </ul>
+
+        <h2>Remote content and sidebar apps</h2>
+        <p>
+          Images in emails that are hosted on the web are <strong>blocked by default</strong>, because they can tell the sender
+          that you opened a message. If you click <em>Show images</em> or turn on automatic image loading, those images are
+          downloaded from the sender's servers.
+        </p>
+        <p>
+          Optional sidebar apps, such as WhatsApp, Google Calendar or Slack, are those companies' own websites shown inside
+          Mailnest. What you do in them is covered by their own privacy policies. Mailnest does not read data from them.
+        </p>
+
+        <h2>Keeping or deleting your data</h2>
+        <ul>
+          <li>
+            <strong>Remove an account</strong> (Account settings → Remove account): Mailnest deletes that account's stored
+            sign-in token or password and all of its cached mail from your computer. Mail on your provider's servers is not
+            affected.
+          </li>
+          <li>
+            <strong>Revoke access</strong>: you can withdraw Mailnest's access to your Google account at any time at
+            <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+          </li>
+          <li>
+            <strong>Uninstall</strong>: uninstall Mailnest and delete the <code>%APPDATA%\Mailnest</code> folder to remove
+            everything it stored.
+          </li>
+        </ul>
+
+        <h2>Children</h2>
+        <p>Mailnest is not directed to children under 13. We do not knowingly collect information from children.</p>
+
+        <h2>Changes to this policy</h2>
+        <p>If this policy changes, we will update it on this page and change the effective date above.</p>
+
+        <h2>Contact</h2>
+        <p>
+          Questions about privacy?
+          <a href="https://github.com/mateus93101/mateus93101.github.io/issues">Contact us through GitHub</a>.
+        </p>
+      </article>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <a href="./">Home</a>
+        <a href="terms.html">Terms of service</a>
+        <span>© 2026 Mailnest</span>
+      </div>
+    </footer>
+  </body>
+</html>
